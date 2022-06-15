@@ -1,0 +1,39 @@
+#:kivy 2.1.0
+
+WindowManager:
+    Login:
+        name: 'login'
+
+    Scanner:
+        name: 'scanner'
+
+    Logout:
+        name: 'logout'
+
+<Login>:
+    Button:
+        text: "Log in"
+        pos_hint: {'center_x':0.5,'center_y':0.5}
+        size_hint: 0.4,0.2
+        on_press: root.callback()
+
+<Scanner>:
+    Label:
+        text: "You are now in Scanner Screen"
+
+    Button:
+        text: "Go to Login screen"
+        pos_hint: {'center_x':0.5,'center_y':0.7}
+        size_hint: 0.4,0.2
+        on_press: root.callback()
+
+    Button:
+        text: 'Logout'
+        pos_hint: {'center_x':0.95, 'center_y':0.95}
+        size_hint: 0.1,0.1
+        on_release: root.logout()
+
+
+<Logout>:
+    Label:
+        text: "You Have logged out"
