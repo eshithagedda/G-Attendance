@@ -1,5 +1,5 @@
 kivy==2.1.0
 kivymd
-cv2
+opencv
 threading
 pickle
