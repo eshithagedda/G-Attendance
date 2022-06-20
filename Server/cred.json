@@ -1,0 +1,16 @@
+[
+    {
+        "Name":"Yashwanth",
+        "Username":"yashwanth",
+        "Password":"yashwanth123",
+        "Email": "yashwanth@gmail.com",
+        "Classes": ["CSE","CSE AI-ML","CSE IOT"]
+    },
+    {
+        "Name":"Eshitha",
+        "Username":"eshitha",
+        "Password":"eshitha123",
+        "Email": "eshithagedda@gmail.com",
+        "Classes": ["CSE","CSE AI-ML","CSE IOT"]
+    }
+]
